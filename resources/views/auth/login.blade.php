@@ -28,3 +28,5 @@
 
     <a href="{{ route('password.request') }}"> Forgotten your password? Reset it here</a>
 @endsection
+
+

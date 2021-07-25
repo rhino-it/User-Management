@@ -46,7 +46,7 @@
             @if (Route::has('login'))
                 <div>
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ route('user.profile') }}">Profile</a>
                         <a href="{{ url('/logout') }}" onclick="event.preventDefault();
                             document.getElementById('logout-form').submit();">Logout</a>
                         <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none">
